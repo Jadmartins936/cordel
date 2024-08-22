@@ -31,9 +31,17 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1em;
+    line-height: 2em;
     padding-left: 30px;
 
+}
+section.img{
+    background-color: black;
+    color: white;
+}
+section.img > p{
+    width: 400px;
+    background-color: rgba(64, 64, 64, 0.659);
 }
 .normal{
     background-color: white;
