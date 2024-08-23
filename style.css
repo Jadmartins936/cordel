@@ -57,16 +57,16 @@ section.img > p{
     width: 400px;
     background-color: rgba(64, 64, 64, 0.323);
     text-shadow: 2px 2px 0px black;
-    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.474);
     background-attachment: fixed;
 }
 section#img1{
 background-image: url('imagens/background001.jpg');
 background-position: right center;
-background-size: cover;
+
 }
 section#img2{
 background-image: url('imagens/background002.jpg');
+
 
 }
 .normal{
@@ -75,7 +75,11 @@ background-image: url('imagens/background002.jpg');
 }
 .img{
     background-color: rgb(55, 55, 55);
-    color:white
+    color:white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.474);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 footer{
     background-color: black;
